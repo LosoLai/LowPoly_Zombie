@@ -15,9 +15,17 @@ public class SmartKidAI : MonoBehaviour {
 	void Start () {
 		animator = GetComponent<Animator> ();
 	}
-	
+
 	// Update is called once per frame
 	void Update () {
 		animator.SetFloat ("distance", Vector3.Distance(transform.position, player.transform.position));
+	}
+
+	void OnCollisionEnter(Collision collisionInfo){
+		Debug.Log ("Detect collision between" + gameObject.name + "&" + collisionInfo.gameObject.name);
+	}
+
+	void OnCollisionStay(Collision collisionInfo){
+		Debug.Log ("Detect collision between" + gameObject.name + "&" + collisionInfo.gameObject.name);
 	}
 }

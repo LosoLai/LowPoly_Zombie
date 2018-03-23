@@ -11,6 +11,9 @@ public class Chase : SmartKidFSM {
 
 	// OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
 	override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
+		if(Vector3.Distance(opponent.transform.position, Kid.transform.position) < 1.0f)
+			return;
+
 		var direction = opponent.transform.position - Kid.transform.position;
 		Kid.transform.rotation = Quaternion.Slerp (Kid.transform.rotation,
 												   Quaternion.LookRotation(direction),
