@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Patrol : KidFSM {
+public class Patrol : SmartKidFSM {
 	GameObject[] waypoints;
 	int currentWPIndex;
 

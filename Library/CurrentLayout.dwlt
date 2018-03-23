@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 5}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -70,7 +70,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 492}
   m_MaxSize: {x: 10004, y: 14042}
   vertical: 1
-  controlID: 111
+  controlID: 12
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -89,8 +89,8 @@ MonoBehaviour:
     y: 0
     width: 202
     height: 635
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -161,10 +161,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 713, y: 492}
-  m_MaxSize: {x: 18008, y: 14042}
+  m_MinSize: {x: 709, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 10
+  controlID: 11
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -203,8 +203,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 635
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -271,15 +271,16 @@ MonoBehaviour:
     - {fileID: 1107239324299728376, guid: 7902dfe9456915549bd8bfaa557b2419, type: 2}
     - {fileID: 1107169491829033334, guid: 09936c86c5cf72c468be384b07398de4, type: 2}
     - {fileID: 1107345887509750178, guid: 1f447b8ca37a7514daa1c5e4ab7196a1, type: 2}
+    - {fileID: 1107358100990470692, guid: 80980f8f833a80140ba944e4e389bde4, type: 2}
     m_ValueSerializationHelper:
-    - e00: 1
+    - e00: 0.6641281
       e01: 0
       e02: 0
-      e03: 0
+      e03: -16.878143
       e10: 0
-      e11: 1
+      e11: 0.6641281
       e12: 0
-      e13: 0
+      e13: 55.044907
       e20: 0
       e21: 0
       e22: 1
@@ -312,6 +313,22 @@ MonoBehaviour:
       e11: 0.8543919
       e12: 0
       e13: 9.607773
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    - e00: 0.66552633
+      e01: 0
+      e02: 0
+      e03: -18.276337
+      e10: 0
+      e11: 0.66552633
+      e12: 0
+      e13: 90.774994
       e20: 0
       e21: 0
       e22: 1
@@ -419,7 +436,7 @@ MonoBehaviour:
     width: 275
     height: 614
   m_PersistentViewDataDictionary: {fileID: 0}
-  m_ScrollPosition: {x: 0, y: 151.95508}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: 160
@@ -465,19 +482,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/LowPolyNature/Material
+    - Assets/LowPolyNature/Prefabs
   m_ViewMode: 1
   m_StartGridSize: 32
   m_LastFolders:
-  - Assets/LowPolyNature/Material
+  - Assets/LowPolyNature/Prefabs
   m_LastFoldersGridSize: 32
   m_LastProjectPath: C:\Users\Loso\Desktop\RMIT_IT COURSES\IT_semester04\02.GameAI\LowPoly_Zombie
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 11}
-    m_SelectedIDs: 48300000
-    m_LastClickedID: 12360
-    m_ExpandedIDs: 00000000363000005c30000000ca9a3bffffff7f
+    m_SelectedIDs: 9e270000
+    m_LastClickedID: 10142
+    m_ExpandedIDs: 0000000082270000f827000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -505,7 +522,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000363000005c300000
+    m_ExpandedIDs: 0000000082270000f8270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -743,9 +760,9 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 00d9ffff
-    m_LastClickedID: -9984
-    m_ExpandedIDs: fcdeffff00000000
+    m_SelectedIDs: 1af5ffff
+    m_LastClickedID: -2790
+    m_ExpandedIDs: 9efbffff00000000aa2b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
