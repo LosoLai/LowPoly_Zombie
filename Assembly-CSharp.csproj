@@ -51,9 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Chase.cs" />
-     <Compile Include="Assets\DumbKidAI.cs" />
-     <Compile Include="Assets\DumbKidFSM.cs" />
+     <Compile Include="Assets\FSM\Chase.cs" />
+     <Compile Include="Assets\FSM\DumbKidAI.cs" />
+     <Compile Include="Assets\FSM\DumbKidFSM.cs" />
+     <Compile Include="Assets\FSM\Patrol.cs" />
+     <Compile Include="Assets\FSM\SmartKidAI.cs" />
+     <Compile Include="Assets\FSM\SmartKidFSM.cs" />
+     <Compile Include="Assets\FSM\Wonder.cs" />
+     <Compile Include="Assets\FSM\Wonder_Zombies.cs" />
+     <Compile Include="Assets\FSM\ZombieAI.cs" />
+     <Compile Include="Assets\FSM\ZombieFSM.cs" />
      <Compile Include="Assets\LowPolyNature\Scripts\Axe.cs" />
      <Compile Include="Assets\LowPolyNature\Scripts\Crate.cs" />
      <Compile Include="Assets\LowPolyNature\Scripts\DamageSource.cs" />
@@ -71,10 +78,6 @@
      <Compile Include="Assets\LowPolyNature\Scripts\ItemDropHandler.cs" />
      <Compile Include="Assets\LowPolyNature\Scripts\PlayerController.cs" />
      <Compile Include="Assets\LowPolyNature\Scripts\PlayerFollow.cs" />
-     <Compile Include="Assets\Patrol.cs" />
-     <Compile Include="Assets\SmartKidAI.cs" />
-     <Compile Include="Assets\SmartKidFSM.cs" />
-     <Compile Include="Assets\Wonder.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

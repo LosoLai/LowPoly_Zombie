@@ -22,7 +22,7 @@ public class Wonder : DumbKidFSM {
 		if (leaders.Length == 0)
 			return;
 		
-		Vector3 randomRange = new Vector3 (Random.Range(3.0f, -3.0f), Random.Range(0.3f, -0.3f), 0);
+		Vector3 randomRange = new Vector3 (Random.Range(10.0f, -10.0f), Random.Range(0.3f, -0.3f), 0);
 		Vector3 direction = leaders [currentLeader].transform.position - Kid.transform.position;
 		direction += randomRange;
 
