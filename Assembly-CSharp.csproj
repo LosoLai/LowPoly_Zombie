@@ -61,6 +61,7 @@
      <Compile Include="Assets\FSM\Wonder_Zombies.cs" />
      <Compile Include="Assets\FSM\ZombieAI.cs" />
      <Compile Include="Assets\FSM\ZombieFSM.cs" />
+     <Compile Include="Assets\FSM\ZombieMove.cs" />
      <Compile Include="Assets\LowPolyNature\Scripts\Axe.cs" />
      <Compile Include="Assets\LowPolyNature\Scripts\Crate.cs" />
      <Compile Include="Assets\LowPolyNature\Scripts\DamageSource.cs" />
